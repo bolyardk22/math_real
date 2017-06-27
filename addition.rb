@@ -2,12 +2,12 @@ puts "This program will add two numbers"
 
 def first_number
 	puts "What is the first number?"
-	first_number = gets.to_i
+	first_number = gets.to_f
 end
 
 def second_number
 	puts "What is the second number?"
-	second_number = gets.to_i
+	second_number = gets.to_f
 end
 
 def calculation
