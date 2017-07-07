@@ -1,4 +1,4 @@
-puts "This program will add two numbers"
+# p "This program adds two numbers."
 
 def first_number
 	puts "What is the first number?"
@@ -10,11 +10,8 @@ def second_number
 	second_number = gets.to_f
 end
 
-def calculation
-	num1 = first_number
-	num2 = second_number
-	calculation = num1 + num2
-	p "#{num1} + #{num2} = #{calculation}"
+def calculation(x,y)
+	calculation = x + y
 end
 
-calculation
+#p calculation(first_number,second_number)
